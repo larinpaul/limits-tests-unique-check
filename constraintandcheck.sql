@@ -57,3 +57,4 @@ DELETE FROM employee WHERE gender = 'Panda';
 ALTER TABLE employee ADD CONSTRAINT gender_constraint CHECK (gender = 'Female' OR gender = 'Male');
 -- ALTER TABLE
 
+
