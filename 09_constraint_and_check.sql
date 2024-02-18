@@ -20,6 +20,7 @@ SELECT email, count(*) FROM employee GROUP BY email HAVING COUNT(*) > 1;
 
 SELECT * FROM employee WHERE email = 'rhatley0@mozilla.org';
 
+
 -- Вставим ограничение
 ALTER TABLE employee ADD CONSTRAINT unique_email_address UNIQUE (email);
 
